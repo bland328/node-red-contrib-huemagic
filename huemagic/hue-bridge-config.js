@@ -36,7 +36,7 @@ module.exports = function(RED)
 		this.patchQueue = null;
 
 		// RESOURCE ID PATTERN
-		this.validResourceID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi;
+		// this.validResourceID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi;
 
 		// FIRMWARE UPDATE TIMEOUT
 		this.firmwareUpdateTimeout = null;
